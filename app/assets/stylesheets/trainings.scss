@@ -1,0 +1,23 @@
+// Place all the styles related to the trainings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.training {
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0;
+}
+
+.training p {
+	margin: 4px 0;
+}
+
+.training.hover {
+	background: #ccc;
+}
+
+.training .admin {
+	display: none;
+}
+
+.training.hover .admin {
+	display: inline;
+}
